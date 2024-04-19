@@ -3,7 +3,7 @@ entries:
   ksqldb:
   - apiVersion: v2
     appVersion: 0.28.2
-    created: "2024-04-19T010:34:35.6543876Z"
+    created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Confluent ksqlDB on Kubernetes
     digest: 838e91ee7b2a0ae3652fe663e86dfe25ebbc01529c3f77cc9f75bab388c00ca2
     home: https://github.com/AHPanna/helm-charts
@@ -26,4 +26,4 @@ entries:
     urls:
     - ksqldb-0.2.4.tgz
     version: 0.2.4
-generated: "2024-04-19T010:34:35.6543876Z"
+generated: "2024-04-19T14:36:54.891883Z"
