@@ -1,20 +1,21 @@
 apiVersion: v2
 name: ksqldb
-version: 0.2.3
+version: 0.2.4
 description: A Helm chart for Confluent ksqlDB on Kubernetes
 type: application
 keywords:
   - kafka
   - ksqldb
   - confluent
-home: https://github.com/ricardo-aires/helm-charts
+home: https://github.com/AHPanna/helm-charts
 sources:
+  - https://github.com/AHPanna/helm-charts
   - https://github.com/ricardo-aires/helm-charts
   - https://docs.confluent.io/platform/current/ksqldb/index.html
   - https://ksqldb.io
 maintainers:
-  - name: Ricardo Henriques
-    email: ricardoaireshenriques@gmail.com
-    url: https://github.com/ricardo-aires
+  - name: Panna ABDUL HAKIM
+    email: ahpanna96gmail.com
+    url: https://github.com/AHPanna
 icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
 appVersion: 0.28.2

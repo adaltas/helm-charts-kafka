@@ -120,3 +120,5 @@ resources:
 nodeSelector: {}
 tolerations: {}
 affinity: {}
+volumeMounts: {}
+volumes: {}

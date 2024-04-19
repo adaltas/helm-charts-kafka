@@ -114,6 +114,9 @@ spec:
             failureThreshold: {{ .Values.readinessProbe.failureThreshold }}
           {{- end }}
           volumeMounts:
+            {{- with .Values.volumeMounts }} 
+              {{- toYaml . | nindent 12 }}
+            {{- end }}
           {{- if .Values.kerberos.enabled }}
           - name: krb5
             mountPath: /etc/krb5.conf
@@ -132,6 +135,9 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
+      {{- with .Values.volumes }}
+          {{- toYaml . | nindent 8 }}
+        {{- end }}
       {{- if .Values.kerberos.enabled }}
       - name: krb5
         configMap:
