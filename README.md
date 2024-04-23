@@ -3,18 +3,24 @@
 Collection of basic [helm charts](https://helm.sh) to be used in labs.
 
 ## Description
-### This is a fork of https://github.com/ricardo-aires/helm-charts this repo only for ksqldb
+### This is a fork of https://github.com/ricardo-aires/helm-charts this repo only for ksqldb, kafka-connect, kafka-connect-ui
 ### this repo is maintain by Panna ABDUL HAKIM https://github.com/AHPanna/helm-charts
 ## Install
 
 This repository holds some helm charts developed to be use in laps. To add the chart repository
 
 ```helm repo add ahpanna https://ahpanna.github.io/helm-charts/```
-``` helm install ksqldb ahpanna/ksqldb -f myVar.yaml```
 
+```helm install ksqldb ahpanna/ksqldb -f myVar.yaml```
+
+```helm install kafka-connect ahpanna/kafka-connect -f myVar.yaml```
+
+```helm install kafka-connect-ui ahpanna/kafka-connect-ui -f myVar.yaml```
 
 ## Available Charts
 - ksqldb
+- kafka-connect
+- kafka-connect-ui
 
 ### Confluent
 
@@ -22,3 +28,5 @@ Helm charts that deploy components of the [Confluent Platform](https://www.confl
 
 
 - [ksqldb](./charts/ksqldb/)
+- [kafka-connect](./charts/kafka-connect/)
+- [kafka-connect-ui](./charts/kafka-connect-ui/)
