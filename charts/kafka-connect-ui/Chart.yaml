@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: latest
+description: A Helm chart for Landoop Kafka Connect UI on Kubernetes
+home: https://github.com/AHPanna/helm-charts
+icon: https://assets.confluent.io/m/61d0fe7faad2f991/original/icon-schema-registry.svg
+keywords:
+- kafka
+- kafka-connect
+- landoop
+maintainers:
+- name: Panna ABDUL HAKIM
+  email: ahpanna96gmail.com
+  url: https://github.com/AHPanna
+name: kafka-connect-ui
+sources:
+- https://github.com/AHPanna/helm-charts
+- https://github.com/ricardo-aires/helm-charts
+- https://hub.docker.com/r/landoop/kafka-connect-ui
+- https://github.com/lensesio/kafka-connect-ui
+type: application
+version: 0.1.0

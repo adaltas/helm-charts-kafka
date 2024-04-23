@@ -26,4 +26,55 @@ entries:
     urls:
     - ksqldb-0.2.4.tgz
     version: 0.2.4
+  kafka-connect:
+  - apiVersion: v2
+    appVersion: 7.3.0
+    created: "2024-04-19T14:36:54.891883Z"
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: ce376c2bc2d7e657a08c6f7e6a43fea0361a7923b10cbb1de70a01b92f8b4d0b
+    home: https://github.com/AHPanna/helm-charts
+    icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
+    keywords:
+    - kafka
+    - kafka-connect
+    - confluent
+    maintainers:
+    - email: ahpanna96gmail.com
+      name: Panna ABDUL HAKIM
+      url: https://github.com/AHPanna
+    name: kafka-connect
+    sources:
+    - https://github.com/AHPanna/helm-charts
+    - https://github.com/ricardo-aires/helm-charts
+    - https://docs.confluent.io/platform/current/connect/index.html
+    type: application
+    urls:
+    - kafka-connect-0.3.0.tgz
+    version: 0.3.0
+  kafka-connect-ui:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-04-19T14:36:54.891883Z"
+    description: A Helm chart for Landoop Kafka Connect UI on Kubernetes
+    digest: ce6f98706fdf1bcccda52f964374ee513e75f238c7edd8827eeb99b76bd17ca6
+    home: https://github.com/AHPanna/helm-charts
+    icon: https://assets.confluent.io/m/61d0fe7faad2f991/original/icon-schema-registry.svg
+    keywords:
+    - kafka
+    - kafka-connect
+    - landoop
+    maintainers:
+    - email: ahpanna96gmail.com
+      name: Panna ABDUL HAKIM
+      url: https://github.com/AHPanna
+    name: kafka-connect-ui
+    sources:
+    - https://github.com/AHPanna/helm-charts
+    - https://github.com/ricardo-aires/helm-charts
+    - https://hub.docker.com/r/landoop/kafka-connect-ui
+    - https://github.com/lensesio/kafka-connect-ui
+    type: application
+    urls:
+    - kafka-connect-ui-0.2.0.tgz
+    version: 0.2.0
 generated: "2024-04-19T14:36:54.891883Z"
