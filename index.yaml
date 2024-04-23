@@ -31,7 +31,7 @@ entries:
     appVersion: 7.3.0
     created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
-    digest: ce376c2bc2d7e657a08c6f7e6a43fea0361a7923b10cbb1de70a01b92f8b4d0b
+    digest: 3fc8a3eeb8eeb31fa114b2cbcd1dab48e19d3f575a3f0d3b51e6f78c60d8c0f0
     home: https://github.com/AHPanna/helm-charts
     icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
     keywords:

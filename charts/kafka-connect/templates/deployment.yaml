@@ -130,7 +130,7 @@ spec:
           {{- end }}
           volumeMounts:
             {{- with .Values.volumeMounts }} 
-              {{- toYaml . | nindent 12 }}
+              {{- toYaml . | nindent 10 }}
             {{- end }}
           - name: tmp
             mountPath: /tmp
@@ -155,7 +155,7 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
       {{- with .Values.volumes }}
-          {{- toYaml . | nindent 8 }}
+          {{- toYaml . | nindent 6 }}
         {{- end }}
       - name: tmp
         emptyDir: {}
