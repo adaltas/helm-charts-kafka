@@ -5,7 +5,11 @@ metadata:
   labels:
     {{- include "ksqldb.labels" . | nindent 4 }}
 spec:
+{{- if .Values.service.clusterIp  }}
   type: ClusterIP
+{{- else if .Values.service.LoadBalancer }}
+  type: LoadBalancer
+{{- end }}
   ports:
   - name: tcp
     port: {{ .Values.port }}
