@@ -124,8 +124,15 @@ volumeMounts: {}
 volumes: {}
 
 ## service type and enabled 
-### enabled only set clusterIp
-### LoadBalancer set only lb with cloud/or cluster ip
+### enabled only set Loadbalaner
+### or false set for cluster ip
 service:
-  clusterIp: false # clusterIp
-  LoadBalancer: true # LoadBlancer
+  enabled: true
+ingress:
+  url: ksqldb.exemple.com
+  tls:
+    enabled: false 
+    tlsSecretName: my-tls-secret
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"

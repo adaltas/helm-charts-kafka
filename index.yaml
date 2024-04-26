@@ -5,7 +5,7 @@ entries:
     appVersion: 0.28.2
     created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Confluent ksqlDB on Kubernetes
-    digest: c965a1a2a8872644fe672350dd31ad11a3850885f1cd94222c23ae8563790f93
+    digest: fb05bf1a42d5635aa1d8c3a962f34e023558da78ed4f489a62cc13fa5246e08e
     home: https://github.com/AHPanna/helm-charts
     icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
     keywords:
