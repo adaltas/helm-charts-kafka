@@ -1,37 +1,11 @@
 apiVersion: v1
 entries:
-  ksqldb:
-  - apiVersion: v2
-    appVersion: 0.28.2
-    created: "2024-04-19T14:36:54.891883Z"
-    description: A Helm chart for Confluent ksqlDB on Kubernetes
-    digest: fb05bf1a42d5635aa1d8c3a962f34e023558da78ed4f489a62cc13fa5246e08e
-    home: https://github.com/adaltas/helm-charts-kafka
-    icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
-    keywords:
-    - kafka
-    - ksqldb
-    - confluent
-    maintainers:
-    - email: support@adaltas.com
-      name: Adaltas
-      url: https://github.com/adaltas
-    name: ksqldb
-    sources:
-    - https://github.com/adaltas/helm-charts-kafka
-    - https://github.com/ricardo-aires/helm-charts
-    - https://docs.confluent.io/platform/current/ksqldb/index.html
-    - https://ksqldb.io
-    type: application
-    urls:
-    - ksqldb-0.2.4.tgz
-    version: 0.2.4
   kafka-connect:
   - apiVersion: v2
     appVersion: 7.3.0
-    created: "2024-04-19T14:36:54.891883Z"
+    created: "2024-06-07T17:45:44.577338567+02:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
-    digest: 3fc8a3eeb8eeb31fa114b2cbcd1dab48e19d3f575a3f0d3b51e6f78c60d8c0f0
+    digest: 8309b8122fab2f4605b6db93b756efad8524b2549d04864a4ff4c60da1747e3c
     home: https://github.com/adaltas/helm-charts-kafka
     icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
     keywords:
@@ -54,9 +28,9 @@ entries:
   kafka-connect-ui:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-04-19T14:36:54.891883Z"
+    created: "2024-06-07T17:45:44.577839682+02:00"
     description: A Helm chart for Landoop Kafka Connect UI on Kubernetes
-    digest: ce6f98706fdf1bcccda52f964374ee513e75f238c7edd8827eeb99b76bd17ca6
+    digest: 9b81139d5aeb1a377c139d74b1b90470d90351c39dc84312bedf2faf37fd5c22
     home: https://github.com/adaltas/helm-charts-kafka
     icon: https://assets.confluent.io/m/61d0fe7faad2f991/original/icon-schema-registry.svg
     keywords:
@@ -77,4 +51,30 @@ entries:
     urls:
     - kafka-connect-ui-0.2.0.tgz
     version: 0.2.0
-generated: "2024-04-19T14:36:54.891883Z"
+  ksqldb:
+  - apiVersion: v2
+    appVersion: 0.28.2
+    created: "2024-06-07T17:45:44.578378648+02:00"
+    description: A Helm chart for Confluent ksqlDB on Kubernetes
+    digest: 04029a31109b37b55d7f67f05fb953ccf0ba30411f6d3ef518570a10fed9cffb
+    home: https://github.com/adaltas/helm-charts-kafka
+    icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
+    keywords:
+    - kafka
+    - ksqldb
+    - confluent
+    maintainers:
+    - email: support@adaltas.com
+      name: Adaltas
+      url: https://github.com/adaltas
+    name: ksqldb
+    sources:
+    - https://github.com/adaltas/helm-charts-kafka
+    - https://github.com/ricardo-aires/helm-charts
+    - https://docs.confluent.io/platform/current/ksqldb/index.html
+    - https://ksqldb.io
+    type: application
+    urls:
+    - ksqldb-0.3.0.tgz
+    version: 0.3.0
+generated: "2024-06-07T17:45:44.576442653+02:00"

@@ -17,4 +17,4 @@ sources:
 - https://github.com/ricardo-aires/helm-charts
 - https://docs.confluent.io/platform/current/connect/index.html
 type: application
-version: 0.2.0
+version: 0.3.0
