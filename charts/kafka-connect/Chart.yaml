@@ -1,19 +1,19 @@
 apiVersion: v2
 appVersion: 7.3.0
 description: A Helm chart for Confluent Kafka Connect on Kubernetes
-home: https://github.com/AHPanna/helm-charts
+home: https://github.com/adaltas/helm-charts-kafka
 icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
 keywords:
 - kafka
 - kafka-connect
 - confluent
 maintainers:
-- name: Panna ABDUL HAKIM
-  email: ahpanna96gmail.com
-  url: https://github.com/AHPanna
+- name: Adaltas
+  email: support@adaltas.com
+  url: https://github.com/adaltas
 name: kafka-connect
 sources:
-- https://github.com/AHPanna/helm-charts
+- https://github.com/adaltas/helm-charts-kafka
 - https://github.com/ricardo-aires/helm-charts
 - https://docs.confluent.io/platform/current/connect/index.html
 type: application

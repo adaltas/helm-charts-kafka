@@ -6,19 +6,19 @@ entries:
     created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Confluent ksqlDB on Kubernetes
     digest: fb05bf1a42d5635aa1d8c3a962f34e023558da78ed4f489a62cc13fa5246e08e
-    home: https://github.com/AHPanna/helm-charts
+    home: https://github.com/adaltas/helm-charts-kafka
     icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
     keywords:
     - kafka
     - ksqldb
     - confluent
     maintainers:
-    - email: ahpanna96gmail.com
-      name: Panna ABDUL HAKIM
-      url: https://github.com/AHPanna
+    - email: support@adaltas.com
+      name: Adaltas
+      url: https://github.com/adaltas
     name: ksqldb
     sources:
-    - https://github.com/AHPanna/helm-charts
+    - https://github.com/adaltas/helm-charts-kafka
     - https://github.com/ricardo-aires/helm-charts
     - https://docs.confluent.io/platform/current/ksqldb/index.html
     - https://ksqldb.io
@@ -32,19 +32,19 @@ entries:
     created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 3fc8a3eeb8eeb31fa114b2cbcd1dab48e19d3f575a3f0d3b51e6f78c60d8c0f0
-    home: https://github.com/AHPanna/helm-charts
+    home: https://github.com/adaltas/helm-charts-kafka
     icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
     keywords:
     - kafka
     - kafka-connect
     - confluent
     maintainers:
-    - email: ahpanna96gmail.com
-      name: Panna ABDUL HAKIM
-      url: https://github.com/AHPanna
+    - email: support@adaltas.com
+      name: Adaltas
+      url: https://github.com/adaltas
     name: kafka-connect
     sources:
-    - https://github.com/AHPanna/helm-charts
+    - https://github.com/adaltas/helm-charts-kafka
     - https://github.com/ricardo-aires/helm-charts
     - https://docs.confluent.io/platform/current/connect/index.html
     type: application
@@ -57,19 +57,19 @@ entries:
     created: "2024-04-19T14:36:54.891883Z"
     description: A Helm chart for Landoop Kafka Connect UI on Kubernetes
     digest: ce6f98706fdf1bcccda52f964374ee513e75f238c7edd8827eeb99b76bd17ca6
-    home: https://github.com/AHPanna/helm-charts
+    home: https://github.com/adaltas/helm-charts-kafka
     icon: https://assets.confluent.io/m/61d0fe7faad2f991/original/icon-schema-registry.svg
     keywords:
     - kafka
     - kafka-connect
     - landoop
     maintainers:
-    - email: ahpanna96gmail.com
-      name: Panna ABDUL HAKIM
-      url: https://github.com/AHPanna
+    - email: support@adaltas.com
+      name: Adaltas
+      url: https://github.com/adaltas
     name: kafka-connect-ui
     sources:
-    - https://github.com/AHPanna/helm-charts
+    - https://github.com/adaltas/helm-charts-kafka
     - https://github.com/ricardo-aires/helm-charts
     - https://hub.docker.com/r/landoop/kafka-connect-ui
     - https://github.com/lensesio/kafka-connect-ui

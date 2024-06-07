@@ -7,15 +7,15 @@ keywords:
   - kafka
   - ksqldb
   - confluent
-home: https://github.com/AHPanna/helm-charts
+home: https://github.com/adaltas/helm-charts-kafka
 sources:
-  - https://github.com/AHPanna/helm-charts
+  - https://github.com/adaltas/helm-charts-kafka
   - https://github.com/ricardo-aires/helm-charts
   - https://docs.confluent.io/platform/current/ksqldb/index.html
   - https://ksqldb.io
 maintainers:
-  - name: Panna ABDUL HAKIM
-    email: ahpanna96gmail.com
-    url: https://github.com/AHPanna
+  - name: Adaltas
+    email: support@adaltas.com
+    url: https://github.com/adaltas
 icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
 appVersion: 0.28.2
